@@ -1,0 +1,19 @@
+{
+  "name": "01_nodejs",
+  "version": "1.0.0",
+  "description": "belajar node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sayHai.js"
+  },
+  "author": "Muhammad Arif Setiawan",
+  "license": "ISC",
+  "keywords": [
+    "belajar",
+    "nodejs",
+    "javascript",
+    "binar",
+    "fullstack",
+    "web"
+  ]
+}

@@ -1,0 +1,15 @@
+Backlog
+- Saya membutuhkan api untuk mengatur daftar pengguna
+- Data pengguna terdiri dari 3 field: id, nama, dan password
+- api ini terdiri dari 5 api:
+- 1. api untuk mendapatkan semua list users
+- 2. api untuk membuat user
+- 3. api untuk mendapatkan 1 user saja
+- 4. api untuk mengupdate nama dan password user
+- 5. api untuk mendelete user
+
+
+buat project baru dengan nodejs (npm init)
+instal expressJS
+buat struktur basic express
+buat CRUD untuk users
