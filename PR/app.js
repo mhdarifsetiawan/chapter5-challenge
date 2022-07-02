@@ -12,6 +12,17 @@ userRouter.get("/", (req, res) => {
   res.send(`Ini halaman Home`);
 });
 
+// error handling
+app.get("/error", (req, res) => {
+  throw new Error("Ada error");
+});
+app.use((err, req, res, next) => {
+  return res.status(500).json({
+    message: err.message,
+    status: 500,
+  });
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
