@@ -1,0 +1,131 @@
+.h1 {
+    color: #F9B23D;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+
+.challenge {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.mainBoxGame {
+    width: 100%;
+}
+
+.playerBox {
+    display: flex;
+    margin-top: 5%;
+}
+
+.userSelection, .comSelection {
+    display: flex;
+    width: 35%;
+    margin: auto;
+    flex-direction: column;
+}
+
+#batu, #kertas, #gunting, #com-batu, #com-kertas, #com-gunting {
+    display: flex;
+    padding: 10%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.select {
+    cursor: pointer;
+}
+
+img {
+    width: 80%;
+    padding: 10%;
+}
+
+.boxInfo {
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.boxInfoText {
+    margin: auto;
+}
+
+p.vs {
+    font-family: Open Sans;
+    font-weight: 700;
+    color: #BD0000;
+    font-size: 8rem;
+}
+
+.you-win, .com-win {
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    transform: rotate(-28.87deg);
+    background-color: #4C9654;
+    color: white;
+}
+
+.draw {
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    transform: rotate(-28.87deg);
+    background-color: #035B0C;
+    color: white;
+}
+
+
+/* Reset Button */
+.resetBtn {
+    display: flex;
+    margin-top: -15%;
+}
+
+.reset {
+    display: flex;
+    width: 20%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.resetBtn .reset img {
+    width: 40%;
+    margin: auto;
+    padding: 10%;
+}
+
+.bg-selected {
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 15px;
+}
+
+.pointerevent {
+    pointer-events: none;
+}
+
+.player1, .com1 {
+    font-family: Open Sans;
+    display: flex;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

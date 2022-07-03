@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  background-color: aqua;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+
+section.first-section {
+  margin: 2rem auto;
+  text-align: center;
+}

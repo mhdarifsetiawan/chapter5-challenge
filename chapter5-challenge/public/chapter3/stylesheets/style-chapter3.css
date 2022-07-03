@@ -1,0 +1,546 @@
+/* ======================
+======== GENERAL ========
+======================= */
+html, body, footer {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+  
+  body {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  html, body, header, main,
+  h1, h2, h3, h4, h5, h6, hr,
+  ol, ul, li, a, div, span, p, button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li, ol, ul, a {
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10.635rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.75s ease-in-out;
+}
+
+img {
+    width: 100%;
+}
+
+/* ======================
+======== HEADER ========
+======================= */
+
+
+/* ======================
+======== MAIN ========
+======================= */
+
+/* Global Style for Section */
+#first-section h1.content-title,#second-section h1.content-title,#third-section h1.content-title,#fourth-section h1.content-title,#fifth-section h1.content-title {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.188rem;
+}
+
+#first-section h3.content-title,#second-section h3.content-title,#third-section h3.content-title,#fourth-section h3.content-title,#fifth-section h3.content-title {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.188rem;
+}
+/* End Global Style */
+
+/* Top Section */
+section.intro {
+    min-height: 100vh;
+    /* padding-top: 0; */
+    /* position: relative; */
+}
+
+.container-info {
+    width: 100%;
+    max-width: inherit;
+    /* margin-top: 40vh; */
+    /* position: absolute; */
+}
+
+.intro::before {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    /* border-bottom-left-radius: 5.875rem; */
+    background: linear-gradient(0, #ff3d54, #ff8f70);
+}
+
+.intro {
+    position: relative;
+    /* border-bottom-left-radius: 5.875rem; */
+    /* padding-top: 10rem; */
+    /* background-image: url(/images/bg-pattern-intro.svg); */
+    background-image: url(/chapter3/asset/main-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 350%; */
+    background-size: cover;
+    background-position: 35% 40%;
+    font-family: "Overpass", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.intro-title {
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.188rem;
+    line-height: 5rem;
+}
+
+.intro-info {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 1.175rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.intro-cta {
+    display: flex;
+    max-width: 20.5rem;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-bottom: 9.6875rem; */
+    margin: 0 auto;
+    font-size: 1.175rem;
+}
+
+.intro-cta-start {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+    transition: all 0.75s ease-in-out;
+}
+
+.intro-cta-start:hover, .intro-cta-start:active {
+    background: #111111;
+    color: white;
+    transition: all 0.75s ease-in-out;
+}
+
+.intro-cta-learn {
+    border: 1px solid white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.intro-cta-learn:hover, .intro-cta-learn:active {
+    background: white;
+    color: #ff7a85;
+    transition: all 0.75s ease-in-out;
+  }
+
+.intro-scroll {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    width: calc(100% - 4rem);
+    margin-top: 15rem;
+}
+/* End Top Section */
+
+/* First Section */
+#first-section {
+    min-height: 100vh;
+    /* padding-top: 10rem; */
+    background-image: url(/chapter3/asset/the-games-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.number-slide {
+    margin-top: -30px;
+}
+
+svg.svg-slide {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* End First Section */
+
+/* Second Section */
+#second-section {
+    min-height: 100vh;
+    /* padding-top: 10rem; */
+    background-image: url(/chapter3/asset/features.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-description-svg {
+    margin-right: 2rem;
+}
+
+.content-description-nosvg {
+    border: solid white 1px;
+    margin-left: 7px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+    margin-right: 40px;
+}
+
+.nosvg {
+    height: 100px;
+}
+
+.content-description-title {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFB548;
+    font-weight: 400;
+    font-size: 1.5;
+    line-height: 1.75rem;
+    letter-spacing: 0.125;
+}
+
+.content-description-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 0.75rem;
+}
+/* End Second Section */
+
+/* Third Section */
+#third-section {
+    min-height: 100vh;
+    /* padding-top: 10rem; */
+    background-image: url(/chapter3/asset/requirements.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#third-section .content-description-subtitle {
+    margin-top: auto!important;
+    margin-bottom: 1rem;
+}
+/* End Third Section */
+
+/* Fourth Section */
+#fourth-section {
+    min-height: 100vh;
+    /* padding-top: 10rem; */
+    background-image: url(/chapter3/asset/top-score-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.testi-box {
+    background-color: rgba(255, 255, 255, 0.08);;
+    /* border: solid white 1px; */
+    border-radius: 0.357rem;
+    margin-top: 0.938rem;
+    margin-bottom: 0.938rem;
+    padding: 2rem;
+}
+
+img.user-photo-img {
+    width: auto!important;
+    border-radius: 50%;
+}
+
+.user-identity {
+    width: 70%;
+    padding-left: 1rem;
+}
+
+.user-identity .user-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #FFB548;
+    text-transform: capitalize;
+}
+
+.user-identity .user-proff, .user-date {
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.user-social {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.user-testi {
+    font-size: 1.125rem;
+    color: #e0e0e0;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+}
+/* End Fourth Section */
+
+/* Fifth Section */
+#fifth-section {
+    min-height: 100vh;
+    /* padding-top: 10rem; */
+    background-image: url(/chapter3/asset/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subscribe-cta-form {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgba(255, 255, 255, 0.08); */
+    padding: 0.3rem;
+    padding-left: 1rem;
+    border-radius: 0.625rem;
+}
+
+.form-edit::placeholder {
+    color: #FFB548;
+}
+/* EnfFifth Section */
+
+
+/* ======================
+======== FOOTER ========
+======================= */
+footer  {
+    background: #25252d;
+    background-image: url(/chapter3/asset/newsletter.png);
+}
+
+.border-footer {
+    border-bottom: solid white 1px;
+}
+
+.foot-nav {
+    display: flex!important;
+    /* border-bottom: solid white 1px; */
+}
+
+.main-nav {
+    /* color: white; */
+    /* display: flex; */
+}
+
+.main-nav-text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.main-nav-social {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: 1.5rem;
+}
+
+.content-copyright {
+    letter-spacing: 0.1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    margin-right: auto!important;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.content-information {
+    letter-spacing: 0.1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: auto!important;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-wrapper {
+    display: flex;
+    width: calc(100% - 2rem);
+    max-width: 69.875rem;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding-top: 4.625rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-wrapper .foot-section {
+    flex: 1;
+}
+
+.footer-wrapper .foot-section-title {
+    margin-bottom: 2.25rem;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-wrapper .foot-section-list {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 3.375rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #c8c8cb;
+}
+
+.footer-wrapper .foot-section-list .list-item {
+    width: max-content;
+    margin-bottom: 1rem;
+}
+
+a.list-item_link:hover {
+    color: rgb(204, 85, 16);
+    text-decoration: underline;
+}
+
+
+/* =====================
+===== Media Queries =====
+===================== */
+@media (min-width: 800px) {
+    .container {
+        width: calc(100% - 2rem);
+        /* max-width: 69.875rem; */
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    /* Main */
+    .intro::before {
+        background: linear-gradient(-90deg, #ff3d54, #ff8f70);
+    }
+    
+
+    /* footer */
+    .footer-wrapper {
+        flex-flow: row nowrap;
+    }
+
+    .footer-wrapper .foot-section-title {
+        text-align: left;
+    }
+
+    .footer-wrapper .foot-section-list {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .intro-title {
+        font-size: 2.25rem;
+    }
+
+    .intro-info {
+        font-size: 1.10rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .intro-title {
+        font-size: 2.5rem;
+    }
+
+    .intro-info {
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-title {
+        font-size: 3.25rem;
+    }
+
+    .intro-info {
+        font-size: 1.20rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .intro-title {
+        font-size: 4.25rem;
+    }
+    .intro-info {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro-title {
+        font-size: 5rem;
+    }
+
+    .intro-info {
+        font-size: 1.5rem;
+    }
+}
